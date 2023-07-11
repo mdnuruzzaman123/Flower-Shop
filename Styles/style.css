@@ -31,7 +31,6 @@
 }
 .header-img{
     overflow: hidden;
-    /* width: 100%; */
     height: 100%;
 }
 .btn-primary{
@@ -149,7 +148,7 @@
     font-weight: 400;
     margin-top: 25px;
 }
-#font-style{
+.font-style{
     color:#E55473 ;
 }
 
@@ -184,12 +183,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height:400px ;
+    height:500px ;
     border-radius: 8px;
     background-image: url('/Styles/Flower Asset/bg.png');
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 0px 200px;
+    margin: 0px 200px 120px 200px;
 }
 .input-title{
     color: #272727;
@@ -215,4 +214,33 @@
     height: 65px;
     margin-right:15px ;
 
+}
+#footer-flower-shop{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    background: #111010;
+    text-align: center;
+}
+.footer-title{
+    color:#FFFFFF ;
+    font-size: 48px;
+    font-weight: 800;
+    font-family: 'Lato', sans-serif;
+}
+.footer-description{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    margin-top:25px ;
+}
+.footer-symbol{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    margin-top:35px ;
 }
