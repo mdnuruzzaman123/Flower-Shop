@@ -117,7 +117,6 @@
     font-family: 'Lato', sans-serif;
     font-size: 24px;
     font-weight: 600;
-    margin-top: ;
 }
 .section-hot-Deal{
     border-radius: 8px;
@@ -152,4 +151,29 @@
 }
 #font-style{
     color:#E55473 ;
+}
+
+.instagram-img-conteiner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF;;
+    padding:50px 200px 0px 200px ;
+}
+.instagram-title{
+    text-align: center;
+    color: #272727;
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 120px;
+}
+.instagram-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 25px;
+    
 }
